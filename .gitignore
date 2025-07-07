@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs and environments
+*.log
+*.env
+.env.*
+*.venv/
+.venv/
+env/
+venv/
+
+# IDE / editor config
+.vscode/
+.idea/
+*.swp
+
+# Exploit tools outputs
+*.pcap
+*.dump
+*.core
+*.log
+*.out
+
+# Screenshots or videos
+*.mp4
+*.avi
+*.mov
+*.webm
+
+# Optional: exclude binary payloads
+*.exe
+*.dll
+*.bin
+*.so
+*.o
