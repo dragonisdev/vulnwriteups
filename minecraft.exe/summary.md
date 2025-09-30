@@ -92,13 +92,13 @@ It will run the same
 
 Now we insert a special character by right clicking while editing file name, right before ouur file extension at `file|gnp.scr`
 
+=> insert special character => RLO
 <img src="10.png" alt="img" />
 
-=> insert special character => RLO
+Now it looks like this with and runs normally
 
 <img src="11.png" alt="img" />
 
-Now it looks like this with and runs normally
 
 ## part 3
 Another method is to create a folder with a shortcut of the file. I'm imagining this as a folder of pictures
@@ -120,10 +120,7 @@ Next up I need to think:
 - Post-exploitation objectives
 
 
-
 Source: 
 
 ebola man
 https://www.youtube.com/watch?v=cXEkSQl9wmw
-
-https://www.youtube.com/watch?v=78QSSB2NnwQ
