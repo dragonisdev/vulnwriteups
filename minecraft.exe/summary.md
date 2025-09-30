@@ -56,29 +56,29 @@ So let's forget the payload legitimacy first, what if we want to turn this into 
 ## part 2
 According to the tutorial, we can bind a picture with the exe using Winrar. 
 
+1. Select the picture and exe and add to archive
+
 <img src="4.png" alt="img" />
 
-Select the picture and exe and add to archive
+2. Check "create SFX archive"
 
 <img src="5.png" alt="img" />
 
-- Check "create SFX archive"
+3. Go to advanced SFX and put these
 
 <img src="6.png" alt="img" />
 
-- Go to advanced SFX and put these
+4. Then modes unpack to temp folder and hide all
 
 <img src="7.png" alt="img" />
 
-- Then modes unpack to temp folder and hide all
+5. Then text and icon, select your icon (must be ICO format)
 
 <img src="8.png" alt="img" />
 
-- Then text and icon, select your icon (must be ICO format)
+6. In update tab => overwrite all files
 
 <img src="8.5.png" alt="img" />
-
-- In update tab => overwrite all files
 
 <img src="9.png" alt="img" />
 
@@ -88,7 +88,7 @@ Change the extension from .exe to .scr
 
 `minecraft.scr`
 
-It runs the same 
+It will run the same 
 
 Now we insert a special character by right clicking while editing file name, right before ouur file extension at `file|gnp.scr`
 
