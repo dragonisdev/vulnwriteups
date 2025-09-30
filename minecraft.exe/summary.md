@@ -43,6 +43,8 @@ Video: https://www.youtube.com/watch?v=cXEkSQl9wmw
 
 First we need resource hacker: https://www.angusj.com/resourcehacker/#download
 
+<img src="2.5.png" alt="img" />
+
 Then we get minecraft icon png and put it on our exe.
 
 <img src="3.png" alt="img" />
@@ -73,6 +75,8 @@ Select the picture and exe and add to archive
 <img src="8.png" alt="img" />
 
 - Then text and icon, select your icon (must be ICO format)
+
+<img src="8.5.png" alt="img" />
 
 - In update tab => overwrite all files
 
