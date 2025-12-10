@@ -19,14 +19,6 @@ We can use regex for matches `[A-Za-z0-9+/]{30,}={0,2}`
 
 finds all HTTP request with method "POST"
 
-`tcp.port == 443`
-
-finds TCP port 443 requests which is HTTPS
-
-`tls.handshake.type == 1`
-
-ClientHello handshakes
-
 `http.request.uri contains "text"`
 
 get all http requests with plaintext "text"
@@ -43,8 +35,30 @@ pings
 
 all global request frames
 
+`ftp-data`
 
-Get rid of noise:
+ftp transfer file
+
+
+### More interesting ones
+
+`tcp.port == 443`
+
+finds TCP port 443 requests which is HTTPS
+
+`tls.handshake.type == 1`
+
+ClientHello handshakes
+
+`ip.addr == 192.168.1.5`
+
+filter by ip address
+
+`http && !(frame.len == 251 || frame.len == 258)`
+
+filter out http request by frame length
+
+### Get rid of noise:
 
 `!arp && !icmp && !dns && ip.len > 100 && frame.len > 200`
 
