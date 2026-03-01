@@ -133,8 +133,15 @@ My one time URL: https://grass-observed-exhibitions-andreas.trycloudflare.com/
 
 ## References
 
-https://dev.to/edgaras/setting-up-full-strict-ssltls-on-apache-with-cloudflare-4lbe
+
 
 https://www.digitalocean.com/community/tutorials/how-to-configure-the-apache-web-server-on-an-ubuntu-or-debian-vps
 
-https://www.eurodns.com/blog/how-to-build-your-own-linux-web-server-from-setup-to-going-live
+https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/do-more-with-tunnels/trycloudflare/
+
+https://www.aptive.co.uk/blog/apacheconfig-security-hardening/
+
+https://idroot.us/apache-security-hardening/
+
+https://httpd.apache.org/docs/2.4/en/howto/htaccess.html
+
