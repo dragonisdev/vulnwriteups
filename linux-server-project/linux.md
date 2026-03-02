@@ -41,6 +41,20 @@ Check that it is running by going to localhost or doing:
 
 By default it is running on port 80. This can be changed in /etc/apache2/ports.conf
 
+
+I also want to make sure my laptop never goes to sleep by:
+`sudo nano /etc/systemd/sleep.conf`
+
+Uncomment and set:
+AllowSuspend=no
+AllowHibernation=no
+AllowSuspendThenHibernate=no
+AllowHybridSleep=no
+
+Reload system: 
+`sudo systemctl daemon-reexec`
+
+
 ### 2. Apache Configs
 
 Lock down Apache basics by disabling unnecessary modules
@@ -127,9 +141,11 @@ Cloudflare will create a temporary trycloudflare.com URL for you without needing
 
 If you want, you can setup your own custom domain in cloudflare and use that to tunnel your connection persistently so the URL doesn't change as long as the PC is on.
 
-You can also create a named tunnel with cloudflare credentials but I won't do so now. This is what a succesful cloudflare tunnel looks like:
+My one time URL: https://topics-bryan-outer-frontpage.trycloudflare.com/
 
-My one time URL: https://grass-observed-exhibitions-andreas.trycloudflare.com/
+![alt text](image-10.png)
+
+This might not work when you check it but just understand I did get my apache2 server up and running properly.
 
 ## References
 
