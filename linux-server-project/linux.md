@@ -131,7 +131,7 @@ Check version:
 
 `cloudflared --version`
 
-Login:
+Setup:
 
 `cloudflared tunnel --url http://localhost:80`
 
